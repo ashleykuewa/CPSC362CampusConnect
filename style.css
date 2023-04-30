@@ -130,7 +130,7 @@ nav{
 }
 .event{
     display: flex;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .left-event{
@@ -145,10 +145,10 @@ nav{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .event p{
-    font-size: 12px;
+    font-size: 10px;
 }
 .event a{
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
     color: #1876f2;
 }
@@ -159,7 +159,7 @@ nav{
     width: 100%;
     background: #1876f2;
     color: #fff;
-    font-size: 10px;
+    font-size: 15px;
     padding: 4px 0;
 }
 .online-list{
@@ -178,7 +178,7 @@ nav{
 }
 .online-list .online::after{
     top: unset;
-    bottom: 50px;
+    bottom: px;
 }
 .write-post-container{
     width: 100%;
@@ -211,4 +211,101 @@ nav{
     outline: 0;
     border-bottom: 1px solid #ccc;
     background: transparent;
+    resize: none;
+}
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    columns: #626262;
+    margin: 20px 0;
+}
+.user-profile span{
+   font-size: 13px;
+   color: #9a9a9a; 
+}
+.post-text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+.post-text a{
+    color: #1876f2;
+    text-decoration: none;
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icons div img{
+    width: 16px;
+    margin-right: 10px;
+}
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.post-profile-icon{
+    display: flex;
+    align-items: center;
+}
+.post-profile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.load-more-button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+.settings-menu{
+    position: absolute;
+    width: 80%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 108%;
+    right: 5%
+}
+.user-profile a{
+    font-size: 12px;
+    color: #1876f2;
+    text-decoration: none;
+}
+.settings-inner {
+    padding: 15px;
+}
+.settings-menu hr{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+.settings-links {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.settings-links .settings-icon{
+    width: 25px;
+    margin-right: 10px;
+}
+.settings-links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #626262;
 }
