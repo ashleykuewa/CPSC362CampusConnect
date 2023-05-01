@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 :root{
@@ -43,6 +43,9 @@ nav{
 .nav-left ul li img{
     width: 25px;
     margin: 0 30px;
+}
+.nav-left ul li img:hover{
+    background-color: #1876f2;
 }
 .nav-user-icon img{
     width: 40px;
@@ -111,6 +114,9 @@ nav{
 }
 .main-content{
     flex-basis: 47%;
+}
+.main-content h1{
+    color: #1876f2;
 }
 .imp-links a{
     display: flex;
@@ -227,6 +233,7 @@ nav{
     border-bottom: 1px solid #ccc;
     background: transparent;
     resize: none;
+    color: #9a9a9a;
 }
 .post-container{
     width: 100%;
@@ -351,4 +358,41 @@ nav{
 #dark-btn.dark-btn-on{
     padding-left: 23px;
     background: #0a0a0a;
+}
+.channels a{
+    color: #1876f2;
+    font-size: 18px;
+    text-decoration: none;
+}
+.channels hr{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 10px 0;
+}
+.channel-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: #626262;
+}
+.channel-input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: #9a9a9a;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+.channel-input textarea{
+    width: 100%;
+    resize: none;
 }
