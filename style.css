@@ -269,6 +269,7 @@ nav{
     display: inline-flex;
     align-items: center;
     margin-right: 30px;
+    color: #9a9a9a;
 }
 .post-profile-icon{
     display: flex;
