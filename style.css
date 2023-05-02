@@ -380,20 +380,36 @@ nav{
     background: var(--bg-color);
     color: #626262;
 }
-.channel-input {
+.chat-input {
     height: 85vh;
-    width: 100%;
+    width: 75%;
     border: 0;
     outline: 0;
     margin-bottom: 0;
     border-bottom: 1px solid #ccc;
-    background: transparent;
+    background-color: var(--bg-color);
     color: #9a9a9a;
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
     margin-left: 10px;
 }
-.channel-input textarea{
+.chat-input > form {
+    flex: 1; 
+}
+.chat-input > form > input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline-width: 0;
+    color: var(--bg-color);
+    width: 100%;
+} 
+.chat-inputButton {
+    display: none;
+}
+
+.chat-input textarea{
     width: 100%;
     resize: none;
 }
@@ -493,4 +509,4 @@ nav{
 }
 .profile-background {
     background-image: url(images/csufbg.jpg);
-  }
+}
