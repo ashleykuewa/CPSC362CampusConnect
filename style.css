@@ -465,7 +465,7 @@ nav{
 .box button {
     border: 1px solid var(--bg-color);
     background-color: var(--body-color);
-    color: var(--nav-color);
+    color: #1876f2;
     height: 30px;
     width: 100px;
     border-radius: 5px;
@@ -479,15 +479,18 @@ nav{
     display: none;
 }
 .box label{
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
     font-size: 18px;
-    background-color: var(--bg-color);
-    color: var(--nav-color);
+    color: #1876f2;
     padding: 2px 1px;
     border-radius: 5px;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 .box label:hover{
-    background-color: var(--body-color);
-    color:#1876f2;
+    color:#f26f18;
 }
+.profile-background {
+    background-image: url(images/csufbg.jpg);
+  }
