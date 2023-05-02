@@ -381,6 +381,7 @@ nav{
     color: #626262;
 }
 .channel-input {
+    height: 85vh;
     width: 100%;
     border: 0;
     outline: 0;
@@ -395,4 +396,32 @@ nav{
 .channel-input textarea{
     width: 100%;
     resize: none;
+}
+.ourteam div img{
+    border-radius: 50%;
+}
+.ourteam div p{
+    color: #9a9a9a;
+}
+.ourteam div h4 {
+    color: #1876f2;
+}
+.ourteam div{
+    width: 300px;
+    margin: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.ourteam {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    gap: 0px;
 }
